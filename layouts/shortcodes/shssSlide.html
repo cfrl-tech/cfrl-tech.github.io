@@ -1,0 +1,5 @@
+{{ .Page.Scratch.Add "shssPictureCount" 1 }}
+<figure class="shssSlide">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "caption" }}" />
+  <figcaption>{{ .Get "caption" }}</figcaption>
+</figure>

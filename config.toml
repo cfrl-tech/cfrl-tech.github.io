@@ -1,0 +1,8 @@
+baseURL = "https://www.cfrl.co.ao/"
+languageCode = "pt-pt"
+title = "CFRL | Sociedade de Construção, Fornecimentos e Reabilitação, Lda."
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+publishDir = "docs"
+
+[markup.goldmark.renderer]
+unsafe = true
