@@ -4,5 +4,8 @@ title = "CFRL | Sociedade de Construção, Fornecimentos e Reabilitação, Lda."
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 publishDir = "docs"
 
+[params]
+googleAnalyticsID = "G-TRFCN989QF"
+
 [markup.goldmark.renderer]
 unsafe = true
