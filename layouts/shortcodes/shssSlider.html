@@ -37,7 +37,7 @@
       for (i = 0; i < this.domSlides.length; i++) {
         if (i + 1 == this.currentIndex) {
           this.domSlides[i].style.display = 'block';
-          this.domDots[i].style.backgroundColor = '#ff5000';
+          this.domDots[i].style.backgroundColor = 'var(--my-primary-color-lighter)';
         } else {
           this.domSlides[i].style.display = 'none';
           this.domDots[i].style.backgroundColor = '#bbb';
@@ -53,9 +53,6 @@
 </script>
 
 <style>
-  * {
-    box-sizing: border-box;
-  }
   .shssContainer {
     position: relative;
     margin: auto;
@@ -63,7 +60,7 @@
   .shssSlide {
     display: none;
     margin: 0;
-    padding: 0;
+    padding: 0;    
   }
   .shssPrevious, .shssNext {
     cursor: pointer;
@@ -82,11 +79,9 @@
     text-decoration: none;
     color: white !important;
   }
-
   .shssPrevious:focus, .shssPrevious:hover, .shssNext:focus, .shssNext:hover {
     outline: none !important;
   }
-
   .shssNext {
     right: 0;
     border-radius: 3px 0 0 3px;

@@ -20,19 +20,23 @@ icon: "envelope"
 
 <iframe class="d-none d-sm-block float-sm-end" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=pt&amp;q=S%209%C2%B0%203'%201.677%22%20,%20E%2013%C2%B0%203'%2051.569%22+(CFRL)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
-Estrada de Quenguela (ao Km 34 da EN100)\
-Ramiro, Belas, Luanda\
-Angola
-
-[GPS DD: -9.0504659 , 13.0643248<br />GPS DMS: S 9° 3' 1.677" , E 13° 3' 51.569"](geo:-9.0504659,13.0643248)
+* Estrada de Quenguela (ao Km 34 da EN100)\
+    Ramiro, Belas, Luanda\
+    Angola
+* Coordenadas GPS:
+    * -9.0504659,13.0643248\
+    -- ou --
+    * S9°3'1.677",E13°3'51.569"
 
 
 ## Estaleiro de Santa Clara
 
 <iframe class="d-none d-sm-block float-sm-end" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=pt&amp;q=S%2017%C2%B0%2021'%2024.433%22%20,%20E%2015%C2%B0%2052'%2020.319%22+(CFRL)&amp;t=&amp;z=4&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
-Estrada Principal de Omulova, Km 5\
-Omulova, Santa Clara, Namacunde, Cunene\
-Angola
-
-[GPS DD: -17.356787 , 15.872311<br />GPS DMS: S 17° 21' 24.433" , E 15° 52' 20.319"](geo:-17.356787,15.872311)
+* Estrada Principal de Omulova, Km 5\
+    Omulova, Santa Clara, Namacunde, Cunene\
+    Angola
+* Coordenadas GPS:
+    * -17.356787,15.872311\
+    -- ou --
+    * S17°21'24.433",E15°52'20.319"
