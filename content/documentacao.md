@@ -4,6 +4,7 @@ date: 2014-12-19T12:00:00+00:00
 draft: false
 menu: "main"
 weight: 060
+icon: "book"
 ---
 
 A empresa está registada na CONICLE com o n.º 0198/EOP/2001, titular Alvará de Empreiteiro de Obras Públicas, com as seguintes categorias:

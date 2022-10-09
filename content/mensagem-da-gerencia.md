@@ -4,6 +4,7 @@ date: 2014-12-19T12:00:00+00:00
 draft: false
 menu: "main"
 weight: 020
+icon: "megaphone"
 ---
 
 Num país em forte reconstrução nacional e com forte concorrência no sector da construção civil a CFRL surge, em 2001, da nossa vontade e empenho em participar desta nova etapa nacional.

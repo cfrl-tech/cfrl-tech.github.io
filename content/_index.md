@@ -4,7 +4,12 @@ date: 2014-12-19T12:00:00+00:00
 draft: false
 menu: "main"
 weight: 010
+icon: "house-door"
 ---
+
+A **CFRL - Sociedade de Construção, Fornecimentos e Reabilitação, Lda.** é uma empresa de direito angolano, que iniciou a sua actividade no ano de 2001, no sector da Construção Civil e Obras Públicas.
+
+Ao longo de quase duas décadas a empresa foi alargando a sua área de negócio e de actuação estando actualmente capacitada para prestar um alargado leque de serviços de elevada qualidade em várias províncias de Angola.
 
 {{< shssSlider >}}
   {{< shssSlide src="/media/galleries/frontpage/09.jpg" caption="Posto Aduaneiro - Santa Clara, Cunene" >}}
@@ -18,10 +23,6 @@ weight: 010
   {{< shssSlide src="/media/galleries/frontpage/08.jpg" caption="Fabricação de Manilhas" >}}
   {{< shssSlide src="/media/galleries/frontpage/10.jpg" caption="Fabricação de Lancis" >}}
 {{< /shssSlider >}}
-
-A **CFRL - Sociedade de Construção, Fornecimentos e Reabilitação, Lda.** é uma empresa de direito angolano, que iniciou a sua actividade no ano de 2001, no sector da Construção Civil e Obras Públicas.
-
-Ao longo de quase duas décadas a empresa foi alargando a sua área de negócio e de actuação estando actualmente capacitada para prestar um alargado leque de serviços de elevada qualidade em várias províncias de Angola.
 
 
 ## Visão

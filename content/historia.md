@@ -4,6 +4,7 @@ date: 2014-12-19T12:00:00+00:00
 draft: false
 menu: "main"
 weight: 070
+icon: "clock-history"
 ---
 
 Fundada em 2001, por Manuel Correia e Fernanda Correia, e com um dos sócios com vasta experiência no sector da construção, a CFRL nasce com o intuito de realizar obras de construção civil públicas e particulares.

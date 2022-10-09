@@ -4,6 +4,7 @@ date: 2014-12-19T12:00:00+00:00
 draft: false
 menu: "main"
 weight: 050
+icon: "tree"
 ---
 
 ## Qualidade, Ambiente e Segurança
