@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://www.cfrl.co.ao/</loc></url><url><loc>https://www.cfrl.co.ao/mensagem-da-gerencia/</loc></url><url><loc>https://www.cfrl.co.ao/portefolio/</loc></url><url><loc>https://www.cfrl.co.ao/areas-de-negocio/</loc></url><url><loc>https://www.cfrl.co.ao/sustentabilidade/</loc></url><url><loc>https://www.cfrl.co.ao/documentacao/</loc></url><url><loc>https://www.cfrl.co.ao/historia/</loc></url><url><loc>https://www.cfrl.co.ao/contactos/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.cfrl.co.ao/</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#quem-somos</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#historia</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#servicos</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#portefolio</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#documentacao</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#sustentabilidade</loc>
+    </url>
+    <url>
+        <loc>https://www.cfrl.co.ao/#contactos</loc>
+    </url>
+</urlset>

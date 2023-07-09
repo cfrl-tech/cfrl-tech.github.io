@@ -1,85 +1,164 @@
-:root {
-  --my-primary-color: hsl(13.52,88%,53%);
-  --my-primary-color-darker: hsl(13.52,88%,43%);
-  --my-primary-color-lighter: hsl(13.52,88%,63%);
-  --my-primary-color-lighter-rgb: 244,115,78;
+.navbar, #servicos {
+    background-image: url("../media/base/background_faded.jpg");
+    background-size: cover;
 }
 
-body {
-  background-image: url(../media/base/background_faded.jpg);
-  background-repeat: round;
-  overflow-y: scroll;
+.navbar-brand img {
+    max-height: 6.5em;
 }
 
-#mainHeader {
-  background: linear-gradient(4deg, #eee 60%, var(--my-primary-color-lighter));
+.tint {
+    background-color: #FFFDF8;
 }
 
-#mainHeader * img {
-  max-height: 6.5em !important;
+.tinter {
+    background-color: #FFF7EE;
 }
 
-.text-primary {
-  color: var(--my-primary-color) !important;
+section div h1 {
+    position: relative;
 }
 
-.nav-pills .nav-link {
-  font-weight: bold;
+section div h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 1px;
+    background: #888;
+    bottom: 1px;
+    left: calc(50% - 70px);
 }
 
-.nav-pills .nav-link.active, h1 {
-  color: #111 !important;
-  background-color: var(--my-primary-color-lighter) !important;
+section div h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--bs-primary);
+    bottom: 0;
+    left: calc(50% - 30px);
 }
 
-a, .nav-link, .link-primary {
-  color: var(--my-primary-color) !important;
+.shssContainer {
+    position: relative;
+    margin: auto;
+}
+.shssSlide {
+    display: none;
+    margin: 0;
+    padding: 0;    
+}
+.shssPrevious, .shssNext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: white !important;
+}
+.shssPrevious:focus, .shssPrevious:hover, .shssNext:focus, .shssNext:hover {
+    outline: none !important;
+}
+.shssNext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.shssPrevious:hover, .shssNext:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.shssSlide img {
+    width: 100%;
+    border-radius: 0.4em;
+}
+.shssSlide figcaption {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: white !important;
+}
+.shssDots {
+    margin-top: 0.6em;
+    text-align: center;
+}
+.shssDots span {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.shssSlide {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
-a:focus, a:hover {
-  outline-color: var(--my-primary-color-lighter) !important;
-  outline-style: solid;
-  outline-width: 0.1em;
+.card-header {
+    font-size: 1.1em;
 }
 
-a:hover, a:focus, .link-primary:hover, .link-primary:focus, .nav-link:hover, .nav-link:focus  {
-  color: var(--my-primary-color-darker) !important;
+.card-header i.bi {
+    margin-right: 0.2em;
+    font-size: 1.3em;
 }
 
-.btn-outline-primary {
-  border-color: var(--my-primary-color-darker) !important;
+#contactos > div > div > div > div > i {
+    font-size: 20px;
+    color: white;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: var(--bs-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
 
-.btn-outline-primary:hover, .btn-outline-primary:focus {
-  color: #ffffff !important;
-  background-color: var(--my-primary-color) !important;
-  --bs-btn-focus-shadow-rgb: var(--my-primary-color-lighter-rgb) !important;
+#contactos > div > div > div > div > div {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
 }
 
-#mainFooter > div {
-  border-top: 0.05em solid var(--my-primary-color) !important;
-}
-
-#mainContent article h2 {
-  font-size: 1.5em;
-  border-bottom: 0.06em dotted var(--my-primary-color-lighter);
-  margin-top: 1.1em;
-}
-
-#mainContent article h3 {
-  font-size: 1.2em;
-  border-bottom: 0.05em dotted var(--my-primary-color-lighter);
-  margin-top: 1.1em;
-}
-
-#mainContent article ul {
-  padding-left: 1em;
+#contactos iframe {
+    border: 0;
+    width: 100%;
+    height: 290px;
 }
 
 #btn-back-to-top {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  display: none;
-  background-color: var(--my-primary-color-lighter);
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: none;
+    color: white;
+    background-color: var(--bs-primary);
 }
