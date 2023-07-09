@@ -1,123 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-sans');
+@import url('https://fonts.cdnfonts.com/css/lucida-sans-unicode');
+
+* {
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Arial, Helvetica, Geneva, Verdana, sans-serif !important;
+}
+
 .navbar, #servicos {
     background-image: url("../media/base/background_faded.jpg");
     background-size: cover;
 }
 
 .navbar-brand img {
-    max-height: 6.5em;
-}
-
-.tint {
-    background-color: #FFFDF8;
+    max-height: 6em;
 }
 
 .tinter {
     background-color: #FFF7EE;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 section div h1 {
     position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: 3rem;
 }
 
 section div h1::before {
     content: "";
     position: absolute;
     display: block;
-    width: 140px;
+    width: 120px;
     height: 1px;
     background: #888;
     bottom: 1px;
-    left: calc(50% - 70px);
+    left: calc(50% - 60px);
 }
 
 section div h1::after {
     content: "";
     position: absolute;
     display: block;
-    width: 60px;
+    width: 40px;
     height: 3px;
     background: var(--bs-primary);
     bottom: 0;
-    left: calc(50% - 30px);
+    left: calc(50% - 20px);
 }
 
-.shssContainer {
+.carousel-item.active {
+    background-color: transparent;
+}
+
+.carousel-caption {
     position: relative;
-    margin: auto;
-}
-.shssSlide {
-    display: none;
-    margin: 0;
-    padding: 0;    
-}
-.shssPrevious, .shssNext {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0,0,0,0.1);
-    text-decoration: none;
-    color: white !important;
-}
-.shssPrevious:focus, .shssPrevious:hover, .shssNext:focus, .shssNext:hover {
-    outline: none !important;
-}
-.shssNext {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-.shssPrevious:hover, .shssNext:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-.shssSlide img {
-    width: 100%;
-    border-radius: 0.4em;
-}
-.shssSlide figcaption {
     font-size: 0.8em;
-    margin-top: 0.3em;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    color: white !important;
+    right: inherit;
+    left: inherit;
+    margin-top: 4px;
 }
-.shssDots {
-    margin-top: 0.6em;
-    text-align: center;
-}
-.shssDots span {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-    background-color: #717171;
-}
-.shssSlide {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+
+.carousel-control-next, .carousel-control-prev {
+    bottom: inherit;
+    bottom: 5em;
 }
 
 .card-header {
@@ -129,7 +80,18 @@ section div h1::after {
     font-size: 1.3em;
 }
 
-#contactos > div > div > div > div > i {
+.card-body {
+    background-color: #FFFDF8;
+}
+
+#contactos > div > div > div > div > div > * {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+}
+
+#contactos > div > div > div > div > div > i {
+    padding: 0;
+    margin-bottom: 0;
     font-size: 20px;
     color: white;
     float: left;
@@ -143,11 +105,6 @@ section div h1::after {
     transition: all 0.3s ease-in-out;
 }
 
-#contactos > div > div > div > div > div {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-}
-
 #contactos iframe {
     border: 0;
     width: 100%;
@@ -155,10 +112,26 @@ section div h1::after {
 }
 
 #btn-back-to-top {
-    position: fixed;
-    bottom: 1em;
-    right: 1em;
-    display: none;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 20px;
     color: white;
-    background-color: var(--bs-primary);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: var(--bs-primary);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+
+    position: fixed;
+    bottom: 0.4em;
+    right: 0.4em;
+
+    display: none;
+}
+
+#btn-back-to-top i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
